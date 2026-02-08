@@ -12,7 +12,7 @@ int main() {
     scanf("%f", &userFloat);
 
     printf("Enter a character: ");
-    scanf(" %c", &userChar); // Note the space before %c to catch the newline
+    scanf(" %c", &userChar); 
 
     printf("\nYou entered:\n");
     printf("Integer: %d\n", userInt);
